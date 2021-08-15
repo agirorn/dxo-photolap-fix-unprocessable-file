@@ -19,7 +19,7 @@ git clone https://github.com/agirorn/dxo-photolap-fix-unprocessable-file
 
 ```shell
 cd dxo-photolap-fix-unprocessable-file
-yarn start path-to-CD3-files
+yarn start path-to-CR3-files
 ```
 
 ## Details
