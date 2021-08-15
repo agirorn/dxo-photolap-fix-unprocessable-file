@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "canonical",
+    /* "canonical/ava", */
+    /* "canonical/cypress", */
+    /* "canonical/flowtype", */
+    /* "canonical/jest", */
+    /* "canonical/lodash", */
+    /* "canonical/mocha", */
+    "canonical/node",
+    /* "canonical/react", */
+    "canonical/typescript"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "node/no-unpublished-import": "off",
+    "import/unambiguous": "off",
+    "object-curly-newline": ["error", { "minProperties": 2 } ],
+    "babel/object-curly-spacing": ["error", "always"],
+    "@typescript-eslint/lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }],
+    "@typescript-eslint/space-before-function-paren": ["error",{"anonymous": "always", "named": "never", "asyncArrow": "always"} ],
+    "fp/no-this": "off",
+    "fp/no-class": "off",
+    "arrow-body-style": ["error", "as-needed"]
+  }
+}
